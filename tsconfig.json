@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "types": [
+      "vitest/importMeta"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/.*/"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "petstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "petstore": "link:./src",
+    "@types/node": "^18.0.3",
+    "esbuild": "^0.14.49",
+    "esbuild-register": "^3.3.3",
+    "prettier": "2.7.1"
+  }
+}
